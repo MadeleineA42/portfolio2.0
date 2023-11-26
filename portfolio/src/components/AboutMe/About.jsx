@@ -2,12 +2,12 @@ import React from 'react'
 import './About.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
+import profileImage from '../../assets/avataaars.png';
 const About = () => {
   return (
     <div className='card_container'>
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Img variant="top" src={profileImage} />
         <Card.Body>
           <Card.Title>About Me</Card.Title>
           <Card.Text>
