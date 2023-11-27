@@ -4,8 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation/Nav';
 import About from './components/AboutMe/About';
 import Contact from './components/Contact/Contact';
-
-
+import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +14,7 @@ function App() {
       <Navigation />
       <About />
       <Contact />
+      <Portfolio />
       
 
     </div>
