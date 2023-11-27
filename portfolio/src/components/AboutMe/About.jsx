@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import profileImage from '../../assets/avataaars.png';
+import profileImage from '../../assets/images/avataaars.png';
 const About = () => {
   return (
     <div className='card_container'>
