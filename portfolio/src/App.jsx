@@ -2,7 +2,9 @@ import { useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation/Nav';
-import About from './components/AboutMe/About'
+import About from './components/AboutMe/About';
+import Contact from './components/Contact/Contact';
+
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
     <div>
       <Navigation />
       <About />
+      <Contact />
+      
 
     </div>
   )
