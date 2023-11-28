@@ -1,0 +1,9 @@
+/* mt-4 p-5 bg-primary text-white rounded  */
+
+.jumbo {
+    margin-bottom: 100px;
+    padding: 100px;
+    background-image: url("../../assets/images/iris-laura-5UCZREYSXDs-unsplash.jpg");
+    color: white;
+    font-family: cursive;
+}
