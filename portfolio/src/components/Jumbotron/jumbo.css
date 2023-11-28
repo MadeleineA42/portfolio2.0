@@ -1,9 +1,18 @@
-/* mt-4 p-5 bg-primary text-white rounded  */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 .jumbo {
-    margin-bottom: 100px;
-    padding: 100px;
-    background-image: url("../../assets/images/iris-laura-5UCZREYSXDs-unsplash.jpg");
-    color: white;
-    font-family: cursive;
+    margin-bottom: 6.25rem;
+    padding: 6.25rem;
+    /* background-image: url("../../assets/images/iris-laura-5UCZREYSXDs-unsplash.jpg"); */
+    
+}
+
+.title  {
+    color: #A0C1B9;
+    font-family: 'Abril Fatface', serif;
+}
+
+.subtitle   {
+    color: #A0C1B9;
+    font-family: 'Abril Fatface', serif;
 }
