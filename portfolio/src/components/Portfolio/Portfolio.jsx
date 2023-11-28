@@ -13,33 +13,26 @@ import './Portfolio.css'
 
 function Portfolio() {
   return (
-    <Carousel slide={false}>
+    <Carousel interval={null} /* or interval={false} */>
       <Carousel.Item className='moody'>
         <img className="d-block w-100 carousel-img" src={moody} alt="Moody" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h1>Feelin' Moody?</h1>
+          <p>A simple static website to help assess ones current mood</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className='space'>
         <img className="d-block w-100 carousel-img" src={space} alt="YourSpace" />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className='workday'>
-        <img className="d-block w-100 carousel-img" src={workday} alt="Workday Scheduler" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h1>YourSpace</h1>
+          <p>A social media platform based off MySpace</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className='audrey'>
         <img className="d-block w-100 carousel-img" src={audrey} alt="Digital Birthday Card" />
         <Carousel.Caption>
-          <h3>Fourth slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h1>Digital Birthday Card</h1>
+          <p>A simple but cute webpage created for a friends birthday</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

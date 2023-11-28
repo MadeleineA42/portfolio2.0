@@ -18,6 +18,7 @@ function App() {
       <About />
       <Contact />
       <Resume />
+      <Portfolio />
       
       
 
