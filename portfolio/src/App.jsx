@@ -7,6 +7,7 @@ import About from './components/AboutMe/About';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
 import Resume from './components/Resume/Resume';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,8 +18,9 @@ function App() {
       <Header />
       <About />
       <Contact />
-      <Resume />
       <Portfolio />
+      <Resume />
+      <Footer />
       
       
 

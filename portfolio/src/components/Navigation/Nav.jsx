@@ -3,13 +3,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './nav.css';
+import profileImage from '../../assets/images/avataaars.png';
 
 const Navigation = () => {
   return (
     <div>
     <Navbar bg="dark" data-bs-theme="dark">
       <Container className='bar'>
-        <Navbar.Brand href="#">Madeleine Abraham</Navbar.Brand>
+      <Navbar.Brand href="#">
+            <img
+              src={profileImage}
+              alt="Logo"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />{' '}
+          </Navbar.Brand>
         <Nav className="ms-auto">
           <Nav.Link href="#about">About Me</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>

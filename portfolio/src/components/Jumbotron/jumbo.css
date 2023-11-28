@@ -3,7 +3,6 @@
 .jumbo {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     margin-bottom: 6.25rem;
     padding: 6.25rem;
