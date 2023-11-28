@@ -10,3 +10,12 @@
     max-width: 400px;
     margin: 0 auto;
   }
+
+  .form-label {
+    color: #A0C1B9;
+  }
+
+  .btn {
+    background-color: #70A0AF;
+    margin-top: .625rem;
+  }

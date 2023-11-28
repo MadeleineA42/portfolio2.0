@@ -1,5 +1,6 @@
 import React from 'react'
 import Modal from 'react-bootstrap/Modal';
+import './Resume.css'
 
 function Resume() {
   return (
@@ -8,7 +9,7 @@ function Resume() {
       style={{ display: 'block', position: 'initial' }}
     >
       <Modal.Dialog>
-        <Modal.Header>
+        <Modal.Header className='top'>
           <Modal.Title>Resume</Modal.Title>
         </Modal.Header>
 
