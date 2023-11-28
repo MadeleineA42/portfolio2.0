@@ -6,6 +6,7 @@ import Header from './components/Jumbotron/Header';
 import About from './components/AboutMe/About';
 import Contact from './components/Contact/Contact';
 import Portfolio from './components/Portfolio/Portfolio';
+import Resume from './components/Resume/Resume';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,8 @@ function App() {
       <Header />
       <About />
       <Contact />
-      <Portfolio />
+      <Resume />
+      
       
 
     </div>
