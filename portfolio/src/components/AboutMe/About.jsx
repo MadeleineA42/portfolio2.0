@@ -8,7 +8,7 @@ const About = () => {
     <div className='card_container'>
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={profileImage} />
-        <Card.Body>
+        <Card.Body className='cardBody'>
           <Card.Title>About Me</Card.Title>
           <Card.Text>
             My name is Madeleine Abraham and I'm a web dev.
