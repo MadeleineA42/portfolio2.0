@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.jumbo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: inherit;
+    margin-bottom: 6.25rem;
+    padding: 6.25rem;
+}
+
+.title  {
+    color: #A0C1B9;
+    font-size: 6.25rem;
+    
+}
+
+.subtitle   {
+    color: #A0C1B9;
+    font-size: larger;
+    
+}
