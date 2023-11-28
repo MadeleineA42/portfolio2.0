@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-shrink: inherit;
     margin-bottom: 6.25rem;
     padding: 6.25rem;
 }

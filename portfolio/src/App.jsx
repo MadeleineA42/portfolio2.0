@@ -16,13 +16,22 @@ function App() {
     <div>
       <Navigation />
       <Header />
-      <About />
-      <Contact />
-      <Portfolio />
-      <Resume />
+      <section id="about">
+        <About />
+        </section>
+      <section id="contact">
+        <Contact />
+        </section>
+      <section id="portfolio">
+        <Portfolio />
+        </section>
+      <section id="resume">
+        <Resume />
+        </section>
+
       <Footer />
-      
-      
+
+
 
     </div>
   )

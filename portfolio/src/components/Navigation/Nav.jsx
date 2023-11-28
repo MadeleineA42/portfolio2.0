@@ -8,9 +8,9 @@ import profileImage from '../../assets/images/avataaars.png';
 const Navigation = () => {
   return (
     <div>
-    <Navbar bg="dark" data-bs-theme="dark">
+    <Navbar className="fixed-top" bg="dark" data-bs-theme="dark">
       <Container className='bar'>
-      <Navbar.Brand href="#">
+      <Navbar.Brand href="#about">
             <img
               src={profileImage}
               alt="Logo"
